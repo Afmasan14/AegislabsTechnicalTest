@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Laporan"; // Mengatur judul halaman
+}
+
+<div class="text-center">
+    <h1 class="display-4">Download Laporan Produk</h1>
+    <p>Silakan pilih jenis laporan yang ingin Anda unduh:</p>
+    <div class="my-4"> @* Menambahkan sedikit margin *@
+        <a href="/Report/DownloadExcel" class="btn btn-primary btn-lg m-2">Download Laporan Excel</a>
+        <a href="/Report/DownloadPdf" class="btn btn-success btn-lg m-2">Download Laporan PDF</a>
+    </div>
+    <p>
+        <small class="text-muted">Pastikan Anda memiliki hak akses untuk mengunduh file.</small>
+    </p>
+</div>
